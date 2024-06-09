@@ -8,6 +8,7 @@ public class WeatherObj {
     private MainWTH main;
     private Coord coord;
     private Weather[] weather;
+    private String name;
     //private City name;
     public WeatherObj()
     {
@@ -18,6 +19,10 @@ public class WeatherObj {
 //    {
 //        return name;
 //    }
+    public String getName()
+    {
+        return name;
+    }
     public MainWTH getMain()
     {
         return main;
